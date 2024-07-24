@@ -1,0 +1,84 @@
+
+body{
+background-color: rgb(234, 231, 231);
+}
+.area{
+  border-radius: 10px;
+}
+.area img{
+  width: 180px;
+  height: 190px;
+}
+.area .Fh{
+font-family: 'Lato';
+font-style: normal;
+font-size: 24px;
+color: #1C6E97;
+}
+.area .pcs{
+opacity: 0.6;
+font-family: 'Lato';
+font-style: normal;
+font-size: 24px;
+}
+.area .return{
+opacity: 0.8;
+font-family: 'Lato';
+font-style: normal;
+font-size: 18px;
+}
+
+.area .Delivary{
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+color: #000000;
+opacity: 0.5;
+}
+.item-wrapper {
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 20px; /* Add margin for spacing between items */
+  overflow: hidden; /* Ensure rounded corners apply correctly */
+}
+
+.card-body {
+  height: auto;
+  /* Remove background-color from here */
+}
+
+
+.Order-summary{
+  border-radius: 10px;
+  height: 300px;
+  margin-top: 50px;
+}
+.Order-summary .btn-s{
+  background-color: rgba(249, 247, 247, 0.975);
+  color:#1C6E97;
+  border-color: #1C6E97;
+  width: 245px;
+  height: 40px;
+  border-radius: 10px;
+
+ }
+ .Order-summary .Subtotal{
+background-color: rgba(249, 247, 247, 0.975);
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+color: #000000;
+opacity: 0.7;
+ }
+ .Order-summary .btn-l{
+ background-color: #408AAF;
+ border-radius: 12px;
+ width: 280px;
+ height: 60px;
+ color: white;
+
+ }
+ 
+

@@ -1,0 +1,55 @@
+.login-card{
+    width: 850px;
+    height: 675px;
+}
+  .card-login-body{
+    width: 550px;
+    height: 590px;
+  } 
+ .login{
+    width: 1000px; height: 550px; margin-right: 200px; ;
+ }
+  
+ .btn-log{
+    width: 475px;
+    background-color: #1C6E97;
+ }
+ .body2{
+    margin-bottom: 55px;
+ }
+ .footer{
+   color: aliceblue;
+   font-size: 20px;
+   background-color: #1C6E97;
+     position: absolute;
+     width: 1515px;
+     height: 180px
+ }
+ .slideshow-container {
+   position: relative;
+   margin-top: 145px;
+ }.slide {
+   position: absolute;
+   display: none;
+ }.slide:first-child {
+   display: block;
+ }.prev, .next {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   width: auto;
+   margin-top: -22px;
+   padding: 16px;
+   color: white;
+   font-weight: bold;
+   font-size: 24px;
+   transition: 0.6s ease;
+   border-radius: 0 3px 3px 0;
+   cursor: pointer;
+ }.next {
+   right: 0;
+   border-radius: 3px 0 0 3px;
+ }
+ 
+ 
+ 

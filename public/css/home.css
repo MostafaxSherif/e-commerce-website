@@ -1,0 +1,277 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* start navbar */
+.navbar{
+    background-color:  #1C6E97 !important;
+    font-size: 20px; 
+    font-family:Lato; 
+    font-weight: 600;
+    height:92px;
+}
+.navbar-brand{
+  width: 200px;
+  height: 75px;
+}
+.navbar-brand img{
+  width: 60%;
+}
+.navbar form{
+margin-left: 30px;
+margin-bottom:30px;
+}
+.nav-link{
+  color: #FFFFFF;
+}
+.nav-link:hover{
+  color: #ffffffb2;
+}
+.nav-link:focus{
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+  margin-left:30px;
+  margin-right:30px;
+}
+.navbar-light .navbar-nav .nav-link.active,.navbar-light .navbar-nav .nav-link{
+  color: #FFFFFF;
+}
+.navbar-collapse {
+  background-color:  #1C6E97;
+}
+
+ /*End Navbar  */
+
+
+/* Styles for the first paragraph */
+
+/* start header */
+.header {
+  background: radial-gradient(73.48% 314.14% at 12.62% 81.4%, #1C6E97 0%, rgba(28, 110, 151, 0.64) 30%) ;
+  margin-bottom: 150px;
+}
+
+/* Styles for the button */
+.header button {
+  width: 174.59px;
+  height: 56px;
+  border-radius: 150px;
+  color: #1C6E97;
+  border-color: #1C6E97;
+  font-weight: 700;
+  font-size: 20px;
+}
+.left-header {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.right-header img{
+  margin-left: 10px;
+}
+/* end header */
+
+.add-content{
+  color: #fff;
+}
+.text-center text-white{
+  background-color: #1C6E97;
+}
+.text-center p-3{
+  background-color: #1C6E97;
+}
+
+.back-to-school {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 4px;
+  color: #FFFFFF;
+}
+
+/* Styles for the second paragraph */
+.special-offer {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  color: #FFFFFF;
+}
+
+/* Styles for the third paragraph */
+.product-solution {
+  width: auto;
+  height: auto;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.165px;
+  color: #FFFFFF;
+}
+
+
+
+ /* ٍStart slide show */
+ .slideshow-wrapper {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+.slides-container {
+  display: flex;
+}
+.slide {
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  width: 20%;
+}
+.slide img {
+  max-width: 65%;
+  height: auto;
+}
+/* Navigation Arrows */
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.prev {
+  left: 0;
+}
+.next {
+  right: 0;
+}
+/* Media Queries for responsiveness */
+@media screen and (max-width: 1200px) {
+  .slide {
+    width: 33.33%; /* 3 slides per row for medium screens */
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .slide {
+    width: 50%; /* 2 slides per row for small screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .slide {
+    width: 100%; /* 1 slide per row for extra small screens */
+  }
+}
+
+
+/* End Slide show */
+
+
+/* start cards */
+
+
+.cards h5 {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  color: black;
+}
+
+.card {
+  width: 16rem;
+}
+
+.card-price del{
+  color: rgb(149, 138, 138);
+}
+.cart-icon{
+  color:black;
+}
+.icon{
+  border: #000000;
+  border-radius: 10px;
+  border-color: #1C6E97;
+}
+.fa-cart-shopping,
+.fa-heart {
+  color: rgb(149, 138, 138);
+}
+
+.selling-out {
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.165px;
+  color: #000000;
+  opacity: 0.7;
+}
+
+/* end cards */
+
+.office-supplies{
+  background-color: #1C6E97;
+  width: 100%;
+  height: auto;
+}
+.office-supplies .left-side{
+  font-family: 'Lato';
+  font-weight: 600;
+  font-size: 24px;
+  /* line-height: 50px; */
+  color: #FFFFFF;
+}
+.office-supplies .right-side a{
+  font-family: 'Lato';
+  font-weight: 600;
+  font-size: 20px;
+  /* line-height: 50px; */
+  color: #FFFFFF;  
+  opacity: 0.8;
+}
+ /* -----------------------------------------------------footer----------------------------------------------------------------- */
+ 
+ 
+ .footer-main{
+  background-color: #1C6E97;
+   
+}
+.footer-main .address-main .logo-img img{
+  margin: 5;
+  width: 500px;
+}
+
+.address-main > div.col-lg-4 {
+  border-bottom:double 1px #999;
+}
+.address-box {
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+
+ 
+.add-content h5 {
+  font-size: 17px;
+  color: #ffffff;
+  /* padding: 0; */
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.add-content p {
+  font-size: 13px;
+  color: #999999;
+  font-weight: 300;
+}
+.add-content p a{
+  font-size: 14px;
+  color: #999999;
+  font-weight: 300;
+  word-wrap: break-word;
+}

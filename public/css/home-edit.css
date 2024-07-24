@@ -1,0 +1,35 @@
+
+/* start header */
+.header {
+    background: radial-gradient(73.48% 314.14% at 12.62% 81.4%, #1C6E97 0%, rgba(28, 110, 151, 0.64) 30%) ;
+    margin-bottom: 150px;
+  }
+
+  /* Styles for the button */
+.header button {
+    width: 174.59px;
+    height: 56px;
+    border-radius: 150px;
+    color: #1C6E97;
+    border-color: #1C6E97;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .left-header {
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  .right-header img{
+    margin-left: 10px;
+  }
+  /* end header */
+  
+.add-content{
+    color: #fff;
+}
+.text-center text-white{
+    background-color: #1C6E97;
+}
+.text-center p-3{
+    background-color: #1C6E97;
+}
